@@ -11,3 +11,11 @@ Get function names as labels and comments:
 ![image](https://github.com/user-attachments/assets/da357646-f6f4-4e03-bfe1-3b1f30508206)
 
 No need to do it twice, the labels and comments are saved for the exe as .udd in the OllyDbg folder
+
+## Skip main menu and character selection
+
+Use the patcher to skip main menu ("autoclick" New Game) and character selection (take the first premade) to quickly boot to the default starting map. Intro movies can be disabled in the ddraw.ini
+
+![image](https://github.com/user-attachments/assets/29ed3baf-8640-49c9-8cc5-b29ac11aef89)
+
+add the CRC to ddraw.ini
