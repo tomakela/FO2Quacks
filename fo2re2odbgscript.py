@@ -21,4 +21,5 @@ with open(out_filename,'w') as out_file:
         address = lines[i].replace("// ",'').replace('0x','').strip().strip('_').strip('.')
         comment = lines[i+1].strip().strip(';').strip(' = {')
         out_file.write(f'CMT {address}, "{comment}"\n')
+        out_file.write(f'LBL {address}, "{comment}"\n')
       i+=1
