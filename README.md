@@ -18,4 +18,4 @@ Use the patcher to skip main menu ("autoclick" New Game) and character selection
 
 ![image](https://github.com/user-attachments/assets/29ed3baf-8640-49c9-8cc5-b29ac11aef89)
 
-add the CRC to ddraw.ini
+Remember to "Save as". Add the new CRC to ddraw.ini if using sfall.
