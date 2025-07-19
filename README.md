@@ -16,6 +16,14 @@ No need to do it twice, the labels and comments are saved for the exe as .udd in
 
 Use the patcher to skip main menu ("autoclick" New Game) and character selection (take the first premade) to quickly boot to the default starting map. Intro movies can be disabled in the ddraw.ini
 
-![image](https://github.com/user-attachments/assets/29ed3baf-8640-49c9-8cc5-b29ac11aef89)
+## Change the age limit to 99
+
+In character creation screen you can only choose age up to 35. No more ageism!
+
+<img width="284" height="74" alt="image" src="https://github.com/user-attachments/assets/cdf5a2ef-3559-4c0d-8084-15a20d83fc5c" />
+
+## Note
+
+<img width="609" height="536" alt="image" src="https://github.com/user-attachments/assets/e4dcc440-71a0-42c3-b7b5-b419efdcc07b" />
 
 Remember to "Save as". Add the new CRC to ddraw.ini if using sfall.
