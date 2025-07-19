@@ -65,6 +65,7 @@ class PatcherApp:
                 patch_data = []
                 for line in f:
                     if line.strip():
+                        line = line.split('#', 1)[0]
                         addr, orig, new = [int(x, 16) for x in line.strip().split(',')]
                         patch_data.append((addr, orig, new))
                 self.patches[file.name] = patch_data
